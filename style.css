@@ -45,6 +45,7 @@ header {
   );
 }
 .main-1 img {
+  background-image: url(...img/Untitled_design.png);
   width: 150px;
   overflow: hidden;
   border-radius: 50%;
@@ -56,6 +57,7 @@ header {
   object-fit: cover;
 }
 .icon img {
+  background-image: url(.../img/Untitled_design.jpg);
   position: absolute;
   width: 30px;
   overflow: hidden;
