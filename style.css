@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+header {
+  width: auto;
+  height: 732px;
+  background: linear-gradient(
+    90deg,
+    rgba(183, 2, 173, 1) 0%,
+    rgba(145, 3, 101, 1) 50%,
+    rgba(8, 2, 193, 1) 100%
+  );
+}
+.main {
+  border-radius: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 450px;
+  transform: translateX(-50%) translateY(-45%);
+  backdrop-filter: blur(20px);
+  background-color: rgb(255, 255, 255);
+}
+.main-1 {
+  border-radius: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  width: 350px;
+  height: 110px;
+  transform: translateX(-50%) translateY(-50%);
+  backdrop-filter: blur(20px);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.main-1 img {
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: fixed;
+  margin-top: 20px;
+  left: 29%;
+  object-fit: cover;
+}
+.icon img {
+  position: absolute;
+  width: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0px solid rgb(255, 255, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 150px;
+  left: 46.5%;
+  object-fit: cover;
+}
+.sosal {
+  text-align: center;
+  display: block;
+}
+.sosal h2 {
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  margin-top: 190px;
+}
+.sosal h3 {
+  margin-top: 7px;
+  color: rgb(159, 159, 159);
+  font-size: 13px;
+}
+.sosal p {
+  color: rgb(76, 75, 75);
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.follo {
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  display: flex;
+  text-align: center;
+}
+.follo h2 {
+  padding: 10px;
+  margin: 15px 19px 10px;
+  font-size: 15px;
+  color: rgb(64, 64, 64);
+}
+.follo p {
+  font-size: 13px;
+  color: rgb(151, 151, 151);
+}
+.about h2 {
+  /* margin-bottom: 50px; */
+  text-align: center;
+  font-size: 15px;
+}
+.buttun ul li {
+  position: relative;
+  list-style-type: none;
+  display: inline-flex;
+  text-align: center;
+  top: 321px;
+  left: 80px;
+  /* position: fixed; */
+  /* text-align: center; */
+}
+.buttun a {
+  text-decoration: none;
+  margin: 0px 3px 0px;
+  padding: 11px;
+}
+.buttun img {
+  width: 30px;
+}
+.buttun img:hover {
+  /* margin: 0px 3px 0px; */
+  transition: 0.5s;
+  padding: 2px;
+}
+.contec {
+  text-align: center;
+  position: relative;
+  top: 320px;
+}
+.bo1 {
+  border: 0px solid;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 156, 231, 1) 0%,
+    rgba(2, 94, 177, 1) 100%
+  );
+}
+.bo2 {
+  border: 0px solid;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 1, 22, 1) 0%,
+    rgba(245, 101, 4, 1) 100%
+  );
+  cursor: pointer;
+}
+a {
+  color: white;
+}
+.bo2:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+.bo1:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
