@@ -105,8 +105,8 @@ header {
   color: rgb(151, 151, 151);
 }
 .about h2 {
-  /* margin-bottom: 50px; */
-  text-align: center;
+  margin: 0px 0px 13px;
+  /* text-align: center; */
   font-size: 15px;
 }
 .buttun ul li {
