@@ -106,28 +106,26 @@ header {
 }
 .about h2 {
   margin: 0px 0px 5px;
-  /* text-align: center; */
   font-size: 15px;
 }
 .buttun {
-  text-align: center;
   position: relative;
   top: 337px;
-}
-.buttun ul li {
   list-style-type: none;
-  display: inline-block;
+  display: block;
+}
+.buttun ul {
+  display: inline-flex;
+  list-style-type: none;
 }
 .buttun a {
   text-decoration: none;
-  margin: 0px 3px 0px;
-  padding: 11px;
+  margin: 0px 12px 0px;
 }
 .buttun img {
   width: 30px;
 }
 .buttun img:hover {
-  /* margin: 0px 3px 0px; */
   transition: 0.5s;
   padding: 2px;
 }
