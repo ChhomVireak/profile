@@ -109,11 +109,14 @@ header {
   /* text-align: center; */
   font-size: 15px;
 }
-.buttun ul li {
+.buttun {
+  text-align: center;
   position: relative;
+  top: 337px;
+}
+.buttun ul li {
   list-style-type: none;
   display: inline-block;
-  top: 326px;
 }
 .buttun a {
   text-decoration: none;
