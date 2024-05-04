@@ -67,6 +67,24 @@ header {
   left: 46.5%;
   object-fit: cover;
 }
+.icontext {
+  background-color: rgba(0, 0, 0, 0.511);
+  padding: 2px;
+  border-radius: 3px;
+  visibility: hidden;
+  position: fixed;
+  text-align: center;
+  right: 145px;
+  top: 140px;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+  z-index: 1;
+}
+.icon:hover .icontext {
+  visibility: visible;
+  transition: 0.5s;
+}
 .sosal {
   text-align: center;
   display: block;
