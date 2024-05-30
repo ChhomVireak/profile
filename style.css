@@ -6,15 +6,17 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
 }
-header {
-  width: auto;
-  height: 732px;
-  background: linear-gradient(
+body{
+    background: linear-gradient(
     90deg,
     rgba(183, 2, 173, 1) 0%,
     rgba(145, 3, 101, 1) 50%,
     rgba(8, 2, 193, 1) 100%
   );
+}
+header {
+  width: auto;
+  height: 732px;
 }
 .main {
   text-align: center;
